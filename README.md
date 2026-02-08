@@ -1,16 +1,48 @@
-# React + Vite
+# 💖 FLAMES – A Fun Love Calculator Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+FLAMES is a nostalgic school-day love game recreated as a modern, romantic web application using **React**.  
+Users can enter two names and discover their relationship vibe in a fun, interactive way.
 
-Currently, two official plugins are available:
+> ⚠️ Just for fun — do not take results seriously 😄
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 💘 Romantic **Home page** with floating hearts animation  
+- 🔥 Classic **FLAMES logic** implementation  
+- ⚛️ Built using **React + Vite**  
+- 🧠 Clean separation of logic and UI (components & utils)  
+- 🔄 Reset / Try Again functionality  
+- 🎨 Glassmorphism UI with gradient background  
+- 🌐 Multi-page navigation using **React Router**  
+- 🚀 Deployed on **Vercel**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- **Frontend:** React (JavaScript)
+- **Routing:** React Router DOM
+- **Styling:** CSS (custom, no external UI libraries)
+- **Build Tool:** Vite
+- **Version Control:** Git & GitHub
+- **Deployment:** Vercel
+
+---
+
+## 🧩 Project Structure
+
+```text
+src/
+ ├── components/
+ │    ├── FlamesForm.jsx
+ │    ├── ResultCard.jsx
+ │    └── Footer.jsx
+ ├── pages/
+ │    ├── Home.jsx
+ │    └── Flames.jsx
+ ├── utils/
+ │    └── flamesLogic.js
+ ├── main.jsx
+ └── index.css
